@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Should edit profile" timestamp="2017-11-13T16:05:39" hostname="localhost" time="8.855" errors="0" tests="1" skipped="0" failures="1">
+  <testcase classname="Should edit profile" name="should edit profile" time="0.839">
+   <failure type="exception" message="Failed: No element found using locator: function () { [native code] }"><![CDATA[NoSuchElementError: No element found using locator: function () { [native code] }
+    at elementArrayFinder.getWebElements.then (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Run beforeAll in control flow
+    at UserContext.<anonymous> (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at queueRunnerFactory (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at UserContext.fn (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5325:13)
+    at attempt (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at queueRunnerFactory (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (D:\havingfun\suites\editprofile.test.js:9:5)
+    at addSpecsToSuite (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\bogdan.vuscan\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\havingfun\suites\editprofile.test.js:8:1)
+    at Module._compile (module.js:641:30)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
