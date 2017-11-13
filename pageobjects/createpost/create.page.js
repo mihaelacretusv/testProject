@@ -169,11 +169,12 @@ var CreatePost = function () {
 
 
 
-    // browser.actions().dragAndDrop(elem, target).perform();
-      // browser.actions().mouseMove(elem).mouseDown().mouseMove(target).mouseUp().perform();
-     //   browser.actions().mouseMove(elem).mouseDown().mouseMove(target).perform();
-    //    browser.actions().mouseMove({x:0, y:5}).perform(); 
-    //   browser.actions().mouseUp().perform();
+   // browser.actions().dragAndDrop(elem, target).perform();
+   
+      browser.actions().mouseMove(elem).mouseDown().mouseMove(target).mouseUp().perform();
+       browser.actions().mouseMove(elem).mouseDown().mouseMove(target).perform();
+       browser.actions().mouseMove({x:0, y:5}).perform(); 
+      browser.actions().mouseUp().perform();
 
 
 

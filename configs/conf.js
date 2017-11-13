@@ -8,7 +8,7 @@ exports.config = {
   allScriptsTimeout: 500000,
   framework: 'jasmine2',
   seleniumAddress: 'http://localhost:4444/wd/hub',
-  specs: ['../suites/createpage.test.js'],
+  specs: ['../suites/editprofile.test.js'],
   capabilities: {
     browserName: 'firefox'
   },
