@@ -70,26 +70,29 @@ var EditProfile = function () {
 
     };
 
-    this.modifyEmailField = function (newValue) {
-        var field = element(by.id('profile-email'));
+    this.modifyCurrentPassword = function (newValue) {
+        var field = element(by.model('profile.password.current_password'));
 
         field.clear();
         field.sendKeys(newValue);
     };
 
-    this.modifyEmailField = function (newValue) {
-        var field = element(by.id('profile-email'));
+    this.modifyNewPasswordField = function (newValue) {
+        var field = element(by.model('profile.password.new_password.first'));
 
         field.clear();
         field.sendKeys(newValue);
     };
 
-    this.modifyEmailField = function (newValue) {
-        var field = element(by.id('profile-email'));
+    this.modifyConfirmNewPasswordlField = function (newValue) {
+        var field = element(by.model('profile.password.new_password.second'));
 
-        field.clear();
-        field.sendKeys(newValue);
+        field.clear().sendKeys(newValue);
     };
 
+    this.getCheckFollowMe = function () {
+        var checkmark = element('')
+
+    }
 }
 module.exports = new EditProfile();

@@ -21,7 +21,7 @@ describe("Should edit profile", function () {
 
         editProfile.modifyNameField("123");
         editProfile.modifyGenderField("m");
-
+        editProfile.modifyBioField("ALALALALALALALLALALALALALALALAALALALALALAL");
 
     });
 
